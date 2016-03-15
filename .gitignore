@@ -1,4 +1,5 @@
 vendor/
 clover.xml
 composer.lock
+composer.phar
 coveralls-upload.json
