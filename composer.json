@@ -3,5 +3,11 @@
         "zendframework/zend-expressive": "^1.0",
         "zendframework/zend-expressive-fastroute": "^1.1",
         "zendframework/zend-servicemanager": "^3.0"
-    }
+    },
+  "autoload": {
+    "psr-4": {
+      "Router\\": "src/App/Module/Router"
+    },
+    "files": ["src/App/Module/Router/Router.php"]
+  }
 }
